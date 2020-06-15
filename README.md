@@ -34,25 +34,6 @@ module.exports = {
 
 ```
 
-## Configuration options
+## Documentation
 
-`targetPath` Defines the target directory for the downloaded images If you set `./src/assets/contentImages`, it will save the images to `<projectroot>/src/assets/contentImages/`
-
-## Example Markdown
-
-```md
----
-title: Markdown test file
----
-
-## Images
-
-### Local Images
-
-![Image](./images/alexandr-podvalny-220262-unsplash.jpg)
-
-### Remote Images
-
-![Image](https://raw.githubusercontent.com/gridsome/gridsome-starter-blog/master/content/posts/images/alexandr-podvalny-220262-unsplash.jpg)
-
-```
+You can find the complete documentation here: https://webstone.info/documentation/gridsome-plugin-remark-image-download
