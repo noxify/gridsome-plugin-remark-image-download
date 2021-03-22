@@ -3,7 +3,7 @@ const path = require('path')
 const crypto = require('crypto')
 const imageType = require('image-type')
 const visit = require('unist-util-visit')
-const imageDownload = require('image-download')
+const imageDownload = import('image-download')
 
 const urlRegExp = /^(?:([^:\/?#]+):)?(?:\/\/([^\/?#]*))?([^?#]*\/)?([^?#]*)?$/gi;
 
