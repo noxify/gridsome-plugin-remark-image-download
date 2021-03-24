@@ -1,15 +1,9 @@
-// const fs = require('fs')
-// const path = require('path')
-// const crypto = require('crypto')
-// const imageType = require('image-type')
-// const visit = require('unist-util-visit')
-// const imageDownload = import('image-download')
-import * as fs from 'fs';
-import * as path from 'path'
-import * as crypto from 'crypto'
-import * as imageType from 'image-type'
-import * as visit from 'unist-util-visit'
-import * as imageDownload from 'image-download'
+const fs = require('fs')
+const path = require('path')
+const crypto = require('crypto')
+const imageType = require('image-type')
+const visit = require('unist-util-visit')
+const imageDownload = require('image-download')
 
 const urlRegExp = /^(?:([^:\/?#]+):)?(?:\/\/([^\/?#]*))?([^?#]*\/)?([^?#]*)?$/gi;
 
