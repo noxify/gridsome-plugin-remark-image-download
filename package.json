@@ -1,8 +1,9 @@
 {
     "name": "@noxify/gridsome-plugin-remark-image-download",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "description": "Gridsome Remark plugin to download remote images",
     "main": "src/plugin.js",
+    "type": "module",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -30,8 +31,8 @@
         "images"
     ],
     "dependencies": {
-        "unist-util-visit": "^2.0.0",
+        "image-download": "^1.3.2",
         "image-type": "^4.1.0",
-        "image-download": "^1.3.0"
+        "unist-util-visit": "^2.0.3"
     }
 }
